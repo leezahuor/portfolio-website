@@ -1,0 +1,74 @@
+.contact {
+  /* padding: 50px 0 50px 0; */
+  /* position: relative; */
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  min-height: 100vh;
+}
+.contact-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  max-width: 600px;
+}
+.contact h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.contact p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.25em;
+  margin: 20px auto 20px auto;
+  text-align: left;
+  width: 90%;
+}
+.contact ul {
+  list-style: none;
+  font-size: 18px;
+  line-height: 1.5em;
+  margin-bottom: 2rem;
+}
+.contact input[type="text"],
+input[type="email"] {
+  width: 90%;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.contact textarea {
+  width: 90%;
+  height: 50px;
+  padding: 20px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  min-height: 150px;
+}
+.contact input[type="submit"] {
+  font-weight: 600;
+  background-color: #fff;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+  text-align: center;
+}
+.contact input[type="submit"]:hover {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+}

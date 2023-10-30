@@ -1,0 +1,38 @@
+.skill {
+  padding: 50px 0 50px 0;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+.skill-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.skill h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.skill ul {
+  color: #b8b8b8;
+  font-size: 25px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 20px 10 20px 10;
+  list-style: none;
+  columns: 2;
+}
+.details-container {
+  padding: 2rem;
+  flex: 1;
+  border-radius: 2rem;
+  border: 0.1rem solid #fff;
+  border-color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}

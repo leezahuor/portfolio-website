@@ -1,0 +1,27 @@
+.about {
+  padding: 50px 0 50px 0;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+}
+.about-bx {
+  background: #151515;
+  border-radius: 64px;
+  text-align: center;
+  padding: 60px 50px;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+.about h2 {
+  font-size: 45px;
+  font-weight: 700;
+}
+.about p {
+  color: #b8b8b8;
+  font-size: 18px;
+  letter-spacing: 1px;
+  line-height: 1.5em;
+  margin: 14px 0 50px 0;
+}
+
